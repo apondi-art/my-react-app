@@ -1,17 +1,34 @@
-# Quinter Ochieng — Personal Portfolio
+# Quinter Ochieng — Personal Webpage
 
-A personal portfolio page built with React and Vite. Currently a work in progress as part of a frontend bootcamp.
+A personal webpage built with React as part of a frontend web development bootcamp assignment.
 
 ## Features
 
-- Personal intro section with name and bio
-- Social links: GitHub, LinkedIn, and X.com
+- **Header** — Displays name and tagline
+- **About** — Short bio paragraph
+- **Hobbies** — List of personal hobbies
+- **Footer** — Simple footer with React credit
 
 ## Tech Stack
 
 - [React 19](https://react.dev/)
 - [Vite 8](https://vite.dev/)
 - [Oxlint](https://oxc.rs/docs/guide/usage/linter.html) for linting
+
+## Project Structure
+
+```
+src/
+├── App.jsx         # Root component — renders all sections
+├── Header.jsx      # Name and tagline
+├── Header.css
+├── About.jsx       # Bio paragraph
+├── About.css
+├── Hobbies.jsx     # Hobbies list
+├── Hobbies.css
+├── Footer.jsx      # Footer text
+└── Footer.css
+```
 
 ## Getting Started
 
